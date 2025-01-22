@@ -6,7 +6,7 @@ const FooterComponents = () => {
       <footer
         className="bg-white"
         style={{
-          backgroundImage: "url('/src/assets/bgroket.jpg')",
+          backgroundImage: "url('/assets/bgroket.jpg')",
           backgroundSize: "cover", // Memastikan gambar mencakup seluruh elemen
           backgroundPosition: "center", // Pusatkan gambar
           backgroundRepeat: "no-repeat", // Hindari pengulangan gambar

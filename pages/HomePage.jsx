@@ -1,16 +1,16 @@
 import React from "react";
-import icon from "../src/assets/reactjs.png";
-import icon1 from "../src/assets/pyhton.png";
-import icon2 from "../src/assets/js.png";
-import icon3 from "../src/assets/laravel.png";
-import icon4 from "../src/assets/php.png";
+import icon from "../public/assets/reactjs.png";
+import icon1 from "../public/assets/pyhton.png";
+import icon2 from "../public/assets/js.png";
+import icon3 from "../public/assets/laravel.png";
+import icon4 from "../public/assets/php.png";
 
 const HomePage = () => {
   return (
     <div className="pt-16">
       <section
         style={{
-          backgroundImage: "url('/src/assets/bgroket.jpg')",
+          backgroundImage: "url('/assets/bgroket.jpg')",
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
