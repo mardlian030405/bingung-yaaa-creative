@@ -4,6 +4,7 @@ import icon1 from "../public/assets/pyhton.png";
 import icon2 from "../public/assets/js.png";
 import icon3 from "../public/assets/laravel.png";
 import icon4 from "../public/assets/php.png";
+import logo from "../public/assets/logo web.png";
 
 const HomePage = () => {
   return (
@@ -50,158 +51,183 @@ const HomePage = () => {
           </div>
         </div>
       </section>
-      <div className="space-y-4 mx-auto max-w-screen-xl py-12">
-        <h1 className="text-3xl text-center font-extrabold text-black sm:text-5xl">
-          LAYANAN YANG KAMI BERIKAN
-          <strong className="font-extrabold text-indigo-950 sm:block">
-            {" "}
-            UNTUK ANDA{" "}
-          </strong>
-        </h1>
-        <details className="group border-s-4 border-indigo-950 bg-gray-50 p-6 [&_summary::-webkit-details-marker]:hidden">
-          <summary className="flex cursor-pointer items-center justify-between gap-1.5">
-            <h2 className="text-lg font-medium text-gray-900">
-              Konsultasi Mendalam dan Strategi Jitu:
-            </h2>
+      <section className="bg-black">
+        <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 gap-4 md:grid-cols-2 md:items-center md:gap-8">
+            <div>
+              <div className="max-w-lg md:max-w-none">
+                <h2 className="text-2xl font-semibold text-white sm:text-3xl">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </h2>
 
-            <span className="shrink-0 rounded-full bg-white p-1.5 text-gray-900 sm:p-3">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="size-5 shrink-0 transition duration-300 group-open:-rotate-45"
-                viewBox="0 0 20 20"
-                fill="currentColor"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M10 3a1 1 0 011 1v5h5a1 1 0 110 2h-5v5a1 1 0 11-2 0v-5H4a1 1 0 110-2h5V4a1 1 0 011-1z"
-                  clipRule="evenodd"
-                />
-              </svg>
-            </span>
-          </summary>
-          <p className="mt-4 leading-relaxed text-gray-700 text-justify">
-            1.Analisis Bisnis Mendalam: Kami akan menggali lebih dalam tentang
-            bisnis Anda, target pasar, dan tujuan yang ingin Anda capai.
-          </p>
-          <p className="mt-4 leading-relaxed text-gray-700 text-justify">
-            2.Pengembangan Strategi Digital: Bersama-sama, kami akan merumuskan
-            strategi digital yang tepat untuk menumbuhkan bisnis Anda secara
-            online.
-          </p>
-          <p className="mt-4 leading-relaxed text-gray-700 text-justify">
-            3.Riset Keyword Komprehensif: Kami akan mengidentifikasi kata kunci
-            yang relevan untuk meningkatkan visibilitas website Anda di mesin
-            pencari.
-          </p>
-        </details>
-        <details className="group border-s-4 border-indigo-950 bg-gray-50 p-6 [&_summary::-webkit-details-marker]:hidden">
-          <summary className="flex cursor-pointer items-center justify-between gap-1.5">
-            <h2 className="text-lg font-medium text-gray-900">
-              Desain Website yang Memukau dan Responsif:
-            </h2>
+                <p className="mt-4 text-white">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Tenetur doloremque saepe architecto maiores repudiandae amet
+                  perferendis repellendus, reprehenderit voluptas sequi.
+                </p>
+              </div>
+            </div>
 
-            <span className="shrink-0 rounded-full bg-white p-1.5 text-gray-900 sm:p-3">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="size-5 shrink-0 transition duration-300 group-open:-rotate-45"
-                viewBox="0 0 20 20"
-                fill="currentColor"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M10 3a1 1 0 011 1v5h5a1 1 0 110 2h-5v5a1 1 0 11-2 0v-5H4a1 1 0 110-2h5V4a1 1 0 011-1z"
-                  clipRule="evenodd"
-                />
-              </svg>
-            </span>
-          </summary>
+            <div>
+              <img src={logo} className="rounded" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="bg-black">
+        <div className="space-y-4 mx-auto max-w-screen-xl py-12">
+          <h1 className="text-3xl text-center font-extrabold text-white sm:text-5xl">
+            LAYANAN YANG KAMI BERIKAN
+            <strong className="font-extrabold text-white sm:block">
+              {" "}
+              UNTUK ANDA{" "}
+            </strong>
+          </h1>
+          <details className="group border-s-4 border-indigo-950 bg-gray-50 p-6 [&_summary::-webkit-details-marker]:hidden">
+            <summary className="flex cursor-pointer items-center justify-between gap-1.5">
+              <h2 className="text-lg font-medium text-gray-900">
+                Konsultasi Mendalam dan Strategi Jitu:
+              </h2>
 
-          <p className="mt-4 leading-relaxed text-gray-700">
-            UI/UX Design yang Menarik: Kami akan menciptakan tampilan website
-            yang tidak hanya indah, tetapi juga mudah dinavigasi dan memberikan
-            pengalaman pengguna yang luar biasa.
-          </p>
-          <p className="mt-4 leading-relaxed text-gray-700">
-            Custom Design: Desain website akan disesuaikan dengan identitas
-            merek Anda, sehingga memberikan kesan yang unik dan profesional.
-          </p>
-          <p className="mt-4 leading-relaxed text-gray-700">
-            {" "}
-            Responsif di Semua Perangkat: Website Anda akan terlihat sempurna di
-            berbagai perangkat, mulai dari desktop hingga smartphone.
-          </p>
-        </details>
-        <details className="group border-s-4 border-indigo-950 bg-gray-50 p-6 [&_summary::-webkit-details-marker]:hidden">
-          <summary className="flex cursor-pointer items-center justify-between gap-1.5">
-            <h2 className="text-lg font-medium text-gray-900">
-              Peluncuran dan Pemeliharaan Website:
-            </h2>
+              <span className="shrink-0 rounded-full bg-white p-1.5 text-gray-900 sm:p-3">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="size-5 shrink-0 transition duration-300 group-open:-rotate-45"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                >
+                  <path
+                    fillRule="evenodd"
+                    d="M10 3a1 1 0 011 1v5h5a1 1 0 110 2h-5v5a1 1 0 11-2 0v-5H4a1 1 0 110-2h5V4a1 1 0 011-1z"
+                    clipRule="evenodd"
+                  />
+                </svg>
+              </span>
+            </summary>
+            <p className="mt-4 leading-relaxed text-gray-700 text-justify">
+              1.Analisis Bisnis Mendalam: Kami akan menggali lebih dalam tentang
+              bisnis Anda, target pasar, dan tujuan yang ingin Anda capai.
+            </p>
+            <p className="mt-4 leading-relaxed text-gray-700 text-justify">
+              2.Pengembangan Strategi Digital: Bersama-sama, kami akan
+              merumuskan strategi digital yang tepat untuk menumbuhkan bisnis
+              Anda secara online.
+            </p>
+            <p className="mt-4 leading-relaxed text-gray-700 text-justify">
+              3.Riset Keyword Komprehensif: Kami akan mengidentifikasi kata
+              kunci yang relevan untuk meningkatkan visibilitas website Anda di
+              mesin pencari.
+            </p>
+          </details>
+          <details className="group border-s-4 border-indigo-950 bg-gray-50 p-6 [&_summary::-webkit-details-marker]:hidden">
+            <summary className="flex cursor-pointer items-center justify-between gap-1.5">
+              <h2 className="text-lg font-medium text-gray-900">
+                Desain Website yang Memukau dan Responsif:
+              </h2>
 
-            <span className="shrink-0 rounded-full bg-white p-1.5 text-gray-900 sm:p-3">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="size-5 shrink-0 transition duration-300 group-open:-rotate-45"
-                viewBox="0 0 20 20"
-                fill="currentColor"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M10 3a1 1 0 011 1v5h5a1 1 0 110 2h-5v5a1 1 0 11-2 0v-5H4a1 1 0 110-2h5V4a1 1 0 011-1z"
-                  clipRule="evenodd"
-                />
-              </svg>
-            </span>
-          </summary>
+              <span className="shrink-0 rounded-full bg-white p-1.5 text-gray-900 sm:p-3">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="size-5 shrink-0 transition duration-300 group-open:-rotate-45"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                >
+                  <path
+                    fillRule="evenodd"
+                    d="M10 3a1 1 0 011 1v5h5a1 1 0 110 2h-5v5a1 1 0 11-2 0v-5H4a1 1 0 110-2h5V4a1 1 0 011-1z"
+                    clipRule="evenodd"
+                  />
+                </svg>
+              </span>
+            </summary>
 
-          <p className="mt-4 leading-relaxed text-gray-700">
-            Testing Mendalam: Sebelum diluncurkan, website Anda akan melalui
-            proses pengujian yang ketat untuk memastikan semuanya berjalan
-            dengan baik.
-          </p>
-          <p className="mt-4 leading-relaxed text-gray-700">
-            Peluncuran yang Lancar: Kami akan meluncurkan website Anda sesuai
-            dengan jadwal yang telah ditentukan.
-          </p>
-          <p className="mt-4 leading-relaxed text-gray-700">
-            Pemeliharaan Berkala: Kami akan melakukan pemeliharaan rutin untuk
-            menjaga performa dan keamanan website Anda.
-          </p>
-        </details>
-        <details className="group border-s-4 border-indigo-950 bg-gray-50 p-6 [&_summary::-webkit-details-marker]:hidden">
-          <summary className="flex cursor-pointer items-center justify-between gap-1.5">
-            <h2 className="text-lg font-medium text-gray-900">
-              Free Domain dan Hosting selama 1 tahun
-            </h2>
+            <p className="mt-4 leading-relaxed text-gray-700">
+              UI/UX Design yang Menarik: Kami akan menciptakan tampilan website
+              yang tidak hanya indah, tetapi juga mudah dinavigasi dan
+              memberikan pengalaman pengguna yang luar biasa.
+            </p>
+            <p className="mt-4 leading-relaxed text-gray-700">
+              Custom Design: Desain website akan disesuaikan dengan identitas
+              merek Anda, sehingga memberikan kesan yang unik dan profesional.
+            </p>
+            <p className="mt-4 leading-relaxed text-gray-700">
+              {" "}
+              Responsif di Semua Perangkat: Website Anda akan terlihat sempurna
+              di berbagai perangkat, mulai dari desktop hingga smartphone.
+            </p>
+          </details>
+          <details className="group border-s-4 border-indigo-950 bg-gray-50 p-6 [&_summary::-webkit-details-marker]:hidden">
+            <summary className="flex cursor-pointer items-center justify-between gap-1.5">
+              <h2 className="text-lg font-medium text-gray-900">
+                Peluncuran dan Pemeliharaan Website:
+              </h2>
 
-            <span className="shrink-0 rounded-full bg-white p-1.5 text-gray-900 sm:p-3">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="size-5 shrink-0 transition duration-300 group-open:-rotate-45"
-                viewBox="0 0 20 20"
-                fill="currentColor"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M10 3a1 1 0 011 1v5h5a1 1 0 110 2h-5v5a1 1 0 11-2 0v-5H4a1 1 0 110-2h5V4a1 1 0 011-1z"
-                  clipRule="evenodd"
-                />
-              </svg>
-            </span>
-          </summary>
+              <span className="shrink-0 rounded-full bg-white p-1.5 text-gray-900 sm:p-3">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="size-5 shrink-0 transition duration-300 group-open:-rotate-45"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                >
+                  <path
+                    fillRule="evenodd"
+                    d="M10 3a1 1 0 011 1v5h5a1 1 0 110 2h-5v5a1 1 0 11-2 0v-5H4a1 1 0 110-2h5V4a1 1 0 011-1z"
+                    clipRule="evenodd"
+                  />
+                </svg>
+              </span>
+            </summary>
 
-          <p className="mt-4 leading-relaxed text-gray-700">
-            untuk domain co.id, id, dan com dapat biaya tambahan
-          </p>
-        </details>
-      </div>
+            <p className="mt-4 leading-relaxed text-gray-700">
+              Testing Mendalam: Sebelum diluncurkan, website Anda akan melalui
+              proses pengujian yang ketat untuk memastikan semuanya berjalan
+              dengan baik.
+            </p>
+            <p className="mt-4 leading-relaxed text-gray-700">
+              Peluncuran yang Lancar: Kami akan meluncurkan website Anda sesuai
+              dengan jadwal yang telah ditentukan.
+            </p>
+            <p className="mt-4 leading-relaxed text-gray-700">
+              Pemeliharaan Berkala: Kami akan melakukan pemeliharaan rutin untuk
+              menjaga performa dan keamanan website Anda.
+            </p>
+          </details>
+          <details className="group border-s-4 border-indigo-950 bg-gray-50 p-6 [&_summary::-webkit-details-marker]:hidden">
+            <summary className="flex cursor-pointer items-center justify-between gap-1.5">
+              <h2 className="text-lg font-medium text-gray-900">
+                Free Domain dan Hosting selama 1 tahun
+              </h2>
+
+              <span className="shrink-0 rounded-full bg-white p-1.5 text-gray-900 sm:p-3">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="size-5 shrink-0 transition duration-300 group-open:-rotate-45"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                >
+                  <path
+                    fillRule="evenodd"
+                    d="M10 3a1 1 0 011 1v5h5a1 1 0 110 2h-5v5a1 1 0 11-2 0v-5H4a1 1 0 110-2h5V4a1 1 0 011-1z"
+                    clipRule="evenodd"
+                  />
+                </svg>
+              </span>
+            </summary>
+
+            <p className="mt-4 leading-relaxed text-gray-700">
+              untuk domain co.id, id, dan com dapat biaya tambahan
+            </p>
+          </details>
+        </div>
+      </section>
       <div className="bg-black bg-opacity-5 items-center justify-center w-full h-fit px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
         <div className="grid grid-cols-1 gap-y-8 lg:grid-cols-2 lg:items-center lg:gap-x-16">
           <div className="mx-auto max-w-lg text-center lg:mx-0 ltr:lg:text-left rtl:lg:text-right">
-            <h2 className="text-3xl font-bold sm:text-4xl">
+            <h2 className="text-3xl font-bold sm:text-4xl text-white">
               Find your career path
             </h2>
 
-            <p className="mt-4 text-gray-600">
+            <p className="mt-4 text-white">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut vero
               aliquid sint distinctio iure ipsum cupiditate? Quis, odit
               assumenda? Deleniti quasi inventore, libero reiciendis minima
@@ -210,7 +236,7 @@ const HomePage = () => {
 
             <a
               href="#"
-              className="mt-8 inline-block rounded bg-indigo-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-indigo-700 focus:outline-none focus:ring focus:ring-yellow-400"
+              className="mt-8 inline-block rounded bg-red-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-indigo-700 focus:outline-none focus:ring focus:ring-yellow-400"
             >
               Get Started Today
             </a>
