@@ -51,27 +51,119 @@ const HomePage = () => {
           </div>
         </div>
       </section>
-      <section className="bg-black">
-        <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 gap-4 md:grid-cols-2 md:items-center md:gap-8">
-            <div>
-              <div className="max-w-lg md:max-w-none">
-                <h2 className="text-2xl font-semibold text-white sm:text-3xl">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                </h2>
+      <section className="bg-black h-full pt-16">
+        <div className="mx-auto max-w-screen-xl grid grid-cols-1 gap-4 md:grid-cols-3 max-sm:px-6">
+          <article className="overflow-hidden rounded-lg border border-gray-100 bg-white shadow-sm">
+            <img
+              alt=""
+              src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+              className="h-56 w-full object-cover"
+            />
 
-                <p className="mt-4 text-white">
+            <div className="p-4 sm:p-6">
+              <a href="#">
+                <h3 className="text-lg font-medium text-gray-900">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Tenetur doloremque saepe architecto maiores repudiandae amet
-                  perferendis repellendus, reprehenderit voluptas sequi.
-                </p>
-              </div>
-            </div>
+                </h3>
+              </a>
 
-            <div>
-              <img src={logo} className="rounded" alt="" />
+              <p className="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Recusandae dolores, possimus pariatur animi temporibus nesciunt
+                praesentium dolore sed nulla ipsum eveniet corporis quidem,
+                mollitia itaque minus soluta, voluptates neque explicabo tempora
+                nisi culpa eius atque dignissimos. Molestias explicabo corporis
+                voluptatem?
+              </p>
+
+              <a
+                href="#"
+                className="group mt-4 inline-flex items-center gap-1 text-sm font-medium text-blue-600"
+              >
+                Find out more
+                <span
+                  aria-hidden="true"
+                  className="block transition-all group-hover:ms-0.5 rtl:rotate-180"
+                >
+                  &rarr;
+                </span>
+              </a>
             </div>
-          </div>
+          </article>
+          <article className="overflow-hidden rounded-lg border border-gray-100 bg-white shadow-sm">
+            <img
+              alt=""
+              src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+              className="h-56 w-full object-cover"
+            />
+
+            <div className="p-4 sm:p-6">
+              <a href="#">
+                <h3 className="text-lg font-medium text-gray-900">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </h3>
+              </a>
+
+              <p className="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Recusandae dolores, possimus pariatur animi temporibus nesciunt
+                praesentium dolore sed nulla ipsum eveniet corporis quidem,
+                mollitia itaque minus soluta, voluptates neque explicabo tempora
+                nisi culpa eius atque dignissimos. Molestias explicabo corporis
+                voluptatem?
+              </p>
+
+              <a
+                href="#"
+                className="group mt-4 inline-flex items-center gap-1 text-sm font-medium text-blue-600"
+              >
+                Find out more
+                <span
+                  aria-hidden="true"
+                  className="block transition-all group-hover:ms-0.5 rtl:rotate-180"
+                >
+                  &rarr;
+                </span>
+              </a>
+            </div>
+          </article>
+          <article className="overflow-hidden rounded-lg border border-gray-100 bg-white shadow-sm">
+            <img
+              alt=""
+              src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+              className="h-56 w-full object-cover"
+            />
+
+            <div className="p-4 sm:p-6">
+              <a href="#">
+                <h3 className="text-lg font-medium text-gray-900">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </h3>
+              </a>
+
+              <p className="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Recusandae dolores, possimus pariatur animi temporibus nesciunt
+                praesentium dolore sed nulla ipsum eveniet corporis quidem,
+                mollitia itaque minus soluta, voluptates neque explicabo tempora
+                nisi culpa eius atque dignissimos. Molestias explicabo corporis
+                voluptatem?
+              </p>
+
+              <a
+                href="#"
+                className="group mt-4 inline-flex items-center gap-1 text-sm font-medium text-blue-600"
+              >
+                Find out more
+                <span
+                  aria-hidden="true"
+                  className="block transition-all group-hover:ms-0.5 rtl:rotate-180"
+                >
+                  &rarr;
+                </span>
+              </a>
+            </div>
+          </article>
         </div>
       </section>
       <section className="bg-black">
@@ -224,21 +316,23 @@ const HomePage = () => {
         <div className="grid grid-cols-1 gap-y-8 lg:grid-cols-2 lg:items-center lg:gap-x-16">
           <div className="mx-auto max-w-lg text-center lg:mx-0 ltr:lg:text-left rtl:lg:text-right">
             <h2 className="text-3xl font-bold sm:text-4xl text-white">
-              Find your career path
+              Cari solusi cepat untuk proyek coding Anda?
             </h2>
 
-            <p className="mt-4 text-white">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut vero
-              aliquid sint distinctio iure ipsum cupiditate? Quis, odit
-              assumenda? Deleniti quasi inventore, libero reiciendis minima
-              aliquid tempora. Obcaecati, autem.
+            <p className="mt-4 text-white text-justify">
+              "Kami menyediakan source code berkualitas dengan harga terjangkau,
+              mulai dari hanya 30 ribu! 💻✨ ✅ Beragam pilihan source code siap
+              pakai ✅ Mudah untuk di-custom sesuai kebutuhan ✅ Cocok untuk
+              belajar atau mempercepat proyek Anda 💬 Ayo cek koleksi kami
+              sekarang! Jangan lewatkan kesempatan ini untuk mendapatkan source
+              code terbaik dengan harga hemat! 🎯"
             </p>
 
             <a
               href="#"
               className="mt-8 inline-block rounded bg-red-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-indigo-700 focus:outline-none focus:ring focus:ring-yellow-400"
             >
-              Get Started Today
+              Cek Sekarang
             </a>
           </div>
 
@@ -251,7 +345,7 @@ const HomePage = () => {
                 <img className="h-6 w-6" src={icon} alt="Icon" />
               </span>
 
-              <h2 className="mt-2 font-bold">Accountant</h2>
+              <h2 className="mt-2 font-bold">React JS</h2>
 
               <p className="hidden sm:mt-1 sm:block sm:text-sm sm:text-gray-600">
                 Lorem ipsum dolor sit amet consectetur.
@@ -266,7 +360,7 @@ const HomePage = () => {
                 <img className="h-6 w-6" src={icon1} alt="Icon" />
               </span>
 
-              <h2 className="mt-2 font-bold">Accountant</h2>
+              <h2 className="mt-2 font-bold">Pyhton</h2>
 
               <p className="hidden sm:mt-1 sm:block sm:text-sm sm:text-gray-600">
                 Lorem ipsum dolor sit amet consectetur.
@@ -281,7 +375,7 @@ const HomePage = () => {
                 <img className="h-6 w-6" src={icon2} alt="Icon" />
               </span>
 
-              <h2 className="mt-2 font-bold">Accountant</h2>
+              <h2 className="mt-2 font-bold">Javascript</h2>
 
               <p className="hidden sm:mt-1 sm:block sm:text-sm sm:text-gray-600">
                 Lorem ipsum dolor sit amet consectetur.
@@ -296,7 +390,7 @@ const HomePage = () => {
                 <img className="h-6 w-6" src={icon3} alt="Icon" />
               </span>
 
-              <h2 className="mt-2 font-bold">Accountant</h2>
+              <h2 className="mt-2 font-bold">Laravel</h2>
 
               <p className="hidden sm:mt-1 sm:block sm:text-sm sm:text-gray-600">
                 Lorem ipsum dolor sit amet consectetur.
@@ -311,7 +405,7 @@ const HomePage = () => {
                 <img className="h-6 w-6" src={icon4} alt="Icon" />
               </span>
 
-              <h2 className="mt-2 font-bold">Accountant</h2>
+              <h2 className="mt-2 font-bold">PHP</h2>
 
               <p className="hidden sm:mt-1 sm:block sm:text-sm sm:text-gray-600">
                 Lorem ipsum dolor sit amet consectetur.
