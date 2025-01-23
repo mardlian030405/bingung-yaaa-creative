@@ -14,7 +14,7 @@ const NavbarComponent = () => {
           <div className="md:flex md:items-center md:gap-12">
             <a className="block text-white" href="/#">
               <span className="sr-only">Home</span>
-              <h1 className="text-2xl font-bold text-white sm:text-xl">
+              <h1 className="text-3xl font-bold text-white max-sm:text-xl">
                 BY CREATIVE
               </h1>
             </a>
@@ -57,7 +57,7 @@ const NavbarComponent = () => {
           <div className="flex items-center gap-4">
             <div className="sm:flex sm:gap-4">
               <a
-                className="rounded-md bg-white px-5 py-2.5 text-sm sm:text-xs font-medium text-black shadow"
+                className="rounded-md bg-white px-4 sm:px-3 py-2 text-sm sm:text-xs font-medium text-black shadow hover:bg-gray-100 transition duration-200 ease-in-out"
                 href="#"
               >
                 Contact Us

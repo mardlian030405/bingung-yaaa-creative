@@ -10,7 +10,7 @@ const FooterComponents = () => {
           backgroundSize: "cover", // Memastikan gambar mencakup seluruh elemen
           backgroundPosition: "center", // Pusatkan gambar
           backgroundRepeat: "no-repeat", // Hindari pengulangan gambar
-          height: "50vh", // Pastikan tinggi sesuai layar penuh
+          height: "60vh", // Pastikan tinggi sesuai layar penuh
         }}
       >
         <div className="mx-auto max-w-screen-xl px-4 pb-8 pt-16 sm:px-6 lg:px-8 lg:pt-24">
