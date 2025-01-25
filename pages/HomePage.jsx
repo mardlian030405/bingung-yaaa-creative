@@ -55,7 +55,7 @@ const HomePage = () => {
       </section>
       <section className="bg-black h-full pt-16">
         <div className="mx-auto max-w-screen-xl grid grid-cols-1 gap-4 md:grid-cols-3 max-sm:px-6">
-          <article className="overflow-hidden rounded-lg border border-gray-100 bg-white shadow-sm">
+          <article className="overflow-hidden rounded-lg bg-white shadow-sm">
             <img alt="" src={project1} className="h-72 w-full object-cover" />
 
             <div className="p-4 sm:p-6">
@@ -78,7 +78,7 @@ const HomePage = () => {
               </a>
             </div>
           </article>
-          <article className="overflow-hidden rounded-lg border border-gray-100 bg-white shadow-sm">
+          <article className="overflow-hidden rounded-lg bg-white shadow-sm">
             <img alt="" src={project2} className="h-72 w-full object-cover" />
 
             <div className="p-4 sm:p-6">
@@ -101,7 +101,7 @@ const HomePage = () => {
               </a>
             </div>
           </article>
-          <article className="overflow-hidden rounded-lg border border-gray-100 bg-white shadow-sm">
+          <article className="overflow-hidden rounded-lg bg-white shadow-sm">
             <img alt="" src={project3} className="h-72 w-full object-cover" />
 
             <div className="p-4 sm:p-6">
