@@ -4,7 +4,9 @@ import icon1 from "../public/assets/pyhton.png";
 import icon2 from "../public/assets/js.png";
 import icon3 from "../public/assets/laravel.png";
 import icon4 from "../public/assets/php.png";
-import logo from "../public/assets/logo web.png";
+import project1 from "../public/assets/project 1.png";
+import project2 from "../public/assets/project 2.png";
+import project3 from "../public/assets/project 3.png";
 
 const HomePage = () => {
   return (
@@ -54,33 +56,19 @@ const HomePage = () => {
       <section className="bg-black h-full pt-16">
         <div className="mx-auto max-w-screen-xl grid grid-cols-1 gap-4 md:grid-cols-3 max-sm:px-6">
           <article className="overflow-hidden rounded-lg border border-gray-100 bg-white shadow-sm">
-            <img
-              alt=""
-              src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
-              className="h-56 w-full object-cover"
-            />
+            <img alt="" src={project1} className="h-72 w-full object-cover" />
 
             <div className="p-4 sm:p-6">
               <a href="#">
-                <h3 className="text-lg font-medium text-gray-900">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                <h3 className="text-lg font-bold text-gray-900">
+                  Project sistem pakar mental health checker
                 </h3>
               </a>
-
-              <p className="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Recusandae dolores, possimus pariatur animi temporibus nesciunt
-                praesentium dolore sed nulla ipsum eveniet corporis quidem,
-                mollitia itaque minus soluta, voluptates neque explicabo tempora
-                nisi culpa eius atque dignissimos. Molestias explicabo corporis
-                voluptatem?
-              </p>
-
               <a
-                href="#"
+                href="https://mental-health-test-expert-system.vercel.app/"
                 className="group mt-4 inline-flex items-center gap-1 text-sm font-medium text-blue-600"
               >
-                Find out more
+                View website
                 <span
                   aria-hidden="true"
                   className="block transition-all group-hover:ms-0.5 rtl:rotate-180"
@@ -91,33 +79,19 @@ const HomePage = () => {
             </div>
           </article>
           <article className="overflow-hidden rounded-lg border border-gray-100 bg-white shadow-sm">
-            <img
-              alt=""
-              src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
-              className="h-56 w-full object-cover"
-            />
+            <img alt="" src={project2} className="h-72 w-full object-cover" />
 
             <div className="p-4 sm:p-6">
-              <a href="#">
+              <a href="https://game-pinball-football-uas-adpl.vercel.app/">
                 <h3 className="text-lg font-medium text-gray-900">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Project Website game pinball
                 </h3>
               </a>
-
-              <p className="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Recusandae dolores, possimus pariatur animi temporibus nesciunt
-                praesentium dolore sed nulla ipsum eveniet corporis quidem,
-                mollitia itaque minus soluta, voluptates neque explicabo tempora
-                nisi culpa eius atque dignissimos. Molestias explicabo corporis
-                voluptatem?
-              </p>
-
               <a
-                href="#"
+                href="https://game-pinball-football-uas-adpl.vercel.app/"
                 className="group mt-4 inline-flex items-center gap-1 text-sm font-medium text-blue-600"
               >
-                Find out more
+                View website
                 <span
                   aria-hidden="true"
                   className="block transition-all group-hover:ms-0.5 rtl:rotate-180"
@@ -128,33 +102,19 @@ const HomePage = () => {
             </div>
           </article>
           <article className="overflow-hidden rounded-lg border border-gray-100 bg-white shadow-sm">
-            <img
-              alt=""
-              src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
-              className="h-56 w-full object-cover"
-            />
+            <img alt="" src={project3} className="h-72 w-full object-cover" />
 
             <div className="p-4 sm:p-6">
-              <a href="#">
+              <a href="https://kelfast-fc.vercel.app/">
                 <h3 className="text-lg font-medium text-gray-900">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Project website profile futsal team
                 </h3>
               </a>
-
-              <p className="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Recusandae dolores, possimus pariatur animi temporibus nesciunt
-                praesentium dolore sed nulla ipsum eveniet corporis quidem,
-                mollitia itaque minus soluta, voluptates neque explicabo tempora
-                nisi culpa eius atque dignissimos. Molestias explicabo corporis
-                voluptatem?
-              </p>
-
               <a
-                href="#"
+                href="https://kelfast-fc.vercel.app/"
                 className="group mt-4 inline-flex items-center gap-1 text-sm font-medium text-blue-600"
               >
-                Find out more
+                View website
                 <span
                   aria-hidden="true"
                   className="block transition-all group-hover:ms-0.5 rtl:rotate-180"
@@ -167,7 +127,7 @@ const HomePage = () => {
         </div>
       </section>
       <section className="bg-black">
-        <div className="space-y-4 mx-auto max-w-screen-xl py-12">
+        <div className="space-y-4 mx-auto max-w-screen-xl max-sm:px-8 py-12">
           <h1 className="text-3xl text-center font-extrabold text-white sm:text-5xl">
             LAYANAN YANG KAMI BERIKAN
             <strong className="font-extrabold text-white sm:block">
